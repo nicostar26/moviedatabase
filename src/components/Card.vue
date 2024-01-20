@@ -30,14 +30,16 @@ defineProps({
   align-items: center;
   height: 20rem;
   width: 12rem;
-  border: 0.15rem black solid;
+  border: 0.10rem rgb(94, 94, 94) solid;
   border-radius: 10px;
   margin: 1rem;
+  background-color: rgb(61, 61, 61);
 }
 
 img {
-  height: 15rem;
-  width: 12rem;;
+  height: 75%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .movie-title {
@@ -46,5 +48,6 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
+  color: rgb(160, 160, 160);
 }
 </style>

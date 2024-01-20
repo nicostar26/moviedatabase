@@ -20,10 +20,11 @@
     padding: 2rem 4rem;
     background-color: rgb(61, 61, 61);
     margin-bottom: 2rem;
+    border-bottom: rgb(160, 160, 160) .05rem solid;
 }
 
 h3 {
-    color: white;
+    color: rgb(160, 160, 160);
 }
 
 h4 {
@@ -33,10 +34,14 @@ h4 {
 .input {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(160, 160, 160);
 }
 
 input {
     height: 1.5rem;
+}
+
+.search {
+    background-color: rgb(160, 160, 160);
 }
 </style>
