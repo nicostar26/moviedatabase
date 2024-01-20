@@ -10,7 +10,6 @@ async function getPopularMovies(){
   try {
     const movieData = await ApiService.getPopularMovies();
     movies.value = movieData.results;
-    console.log(movies.value);
   } catch (error) {
     console.error('Error fetching popular movies', error);
   }
@@ -20,11 +19,6 @@ onMounted(() => {
   getPopularMovies();
 }
 );
-
-// function setResults(result: any){
-//   movies.value = result.results;
-//   console.log(movies.value);
-// }
 
 </script>
 

@@ -11,9 +11,9 @@ export class ApiService {
         
         const moviesData = await response.json();
         return moviesData;
-    } catch (error){
-        console.error('Error in getPopularMovies', error);
-        throw error;
-    }
+        } catch (error){
+            console.error('Error in getPopularMovies', error);
+            throw error;
+        }
     }
 }
