@@ -16,7 +16,6 @@ defineProps({
 
 <template>
     <div class="card">
-      <!-- "https://timesofindia.indiatimes.com/photo/81274581.cms" -->
     <img :src="`https://image.tmdb.org/t/p/original${image}`" alt="No image found">
     <div class="movie-title">
       <h4>{{ title }}</h4>
